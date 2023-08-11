@@ -26,11 +26,5 @@
     "lint-staged": "^13.1.2",
     "rimraf": "^3.0.2",
     "yarn": "^1.22.19"
-  },
-  "lint-staged": {
-    "./packages/ui/**/*.{ts,tsx,js,jsx,md}": [
-      "prettier --write",
-      "eslint --fix"
-    ]
   }
 }
