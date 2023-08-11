@@ -25,7 +25,7 @@ const getStableDiffusionDefaultInputFromPrompt = (prompt: string) => ({
     },
   ],
 
-  model: "stable-diffusion-xl-beta-v2-2-2",
+  model: "stable-diffusion-xl-1024-v1-0",
   sampler: { id: "0", name: "DDIM" },
   style: "enhance",
 
@@ -33,7 +33,7 @@ const getStableDiffusionDefaultInputFromPrompt = (prompt: string) => ({
   height: 512,
 
   cfgScale: 7,
-  steps: 50,
+  steps: 25,
 });
 
 export const createPlugin = StableStudio.createPlugin<{
